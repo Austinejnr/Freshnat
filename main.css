@@ -142,12 +142,20 @@ header{
     font-family: 'Plus Jakarta Sans', sans-serif;
     border-radius: 25px;
 }
+.btn-blue:hover{
+    background: var(--smalltext);
+    color: var(--text);
+    border: 2px solid var(--smalltext);
+    transition: all 1s ease;
+    font-size: 15px;
+}
 .btn-blue .logo{
     border: 2px solid var(--white);
     border-radius: 50%;
     padding: 3px;
     margin-left: 5px;
 }
+
 /* second section ends here  */
 
 /* third section starts here  */
@@ -341,9 +349,9 @@ header{
 }
 .veggiestwo .veggietwo{
     width: 20%;
-    background-image: url("./Images/vegetables_1_2_copy_150x196.png");
+    background-image: url("./Images/vegetables\ 1\ 2.png");
     background-size: cover;
-    height: 320px;
+    height: 350px;
     /* transform: matrix(-0.8, -0.59, -0.59, 0.8, 0, -0); */
     position: absolute;
 }
@@ -360,6 +368,7 @@ header{
     width: 80%;
     background: var(--white);
     margin: 0 auto;
+    border-radius: 10px;
     /* position: absolute; */
     display: flex;
     padding: 70px;
