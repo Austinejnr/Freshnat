@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--body);
+}
+button{
+    cursor: pointer;
+}
+
+/* header section starts here  */
+header{
+    display: flex;
+    padding: 40px 0 50px 120px;
+}
+.left{
+    width: 50%;
+    display: flex;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--text);
+    align-items: center;
+}
+.left h5{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.right{
+    width: 50%;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+    justify-content: space-evenly;
+    font-size: 12px;
+    padding: 10px;
+}
+/* header section ends here  */
+
+/* first section starts here  */
+.firstsection{
+    background: url("./Images/bck4.jpg");
+    background-size: cover;
+    width: 90%;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+    border-radius: 25px;
+}
+.firstsection .partone{
+    width: 65%;
+    padding: 60px 0 60px 80px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--white);
+}
+.partone h4{
+    font-size: 60px;
+}
+.partone p{
+    padding-top: 35px;
+    font-weight: lighter;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+.partone .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--white);
+    width: 50%;
+    border-radius: 10px;
+}
+.search input{
+    background: transparent;
+    color: var(--white);
+    border: none;
+    padding: 12px 20px;
+    outline: none;
+    width: 80%;
+    transition: all 0.5s ease;
+}
+.search .icon{
+    color: var(--text);
+    background: var(--white);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.firstsection .parttwo{
+    width: 25%;
+    position: absolute;
+    height: 80%;
+    left: 65%;
+    top: 8%;
+    /* bottom: 30%;  */
+    background: url("./Images/Greek\ salad\ 1.png");
+    background-size: cover;
+}
+
+/* first section ends here  */
+
+/* second section starts here  */
+.secondsection{
+    display: flex;
+}
+.secondsection .sideone{
+    width: 50%;
+    /* padding-left: 60px; */
+    text-align: center;
+    padding-left: 65px;
+}
+.secondsection .sideone img{
+    height: 65%;
+}
+.secondsection .sidetwo h4{
+    font-size: 30px;
+    padding-top: 30px;
+    color: var(--text);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.secondsection .sidetwo p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    color: var(--text);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.btn-blue{
+    background: var(--text);
+    color: var(--white);
+    padding: 10px 27px;
+    border: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-radius: 25px;
+}
+.btn-blue .logo{
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: 5px;
+}
+/* second section ends here  */
+
+/* third section starts here  */
+.thirdsection{
+    margin: 0 auto;
+    /* margin-top: 0; */
+    padding: 0 0 0 0px;
+    width: 95%;
+}
+.thirdsection .mainholder{
+    background: var(--white);
+    backdrop-filter: blur(20px);
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.thirdsection .holder{
+    color: var(--text);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-radius: 10px;
+    padding-left: 40px; 
+}
+.thirdsection .holder h3{
+    padding: 30px 0px 8px 0px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.thirdsection .holder h5{
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+.holdertwo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.holdertwo .frame{
+    background: linear-gradient(180deg, rgba(19, 163, 172, 0.1) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+.holdertwo .frame img{
+    object-fit: contain;
+    height: 150px;
+}
+.holdertwo .frame h5{
+    color: var(--text);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 8px 0 4px;
+}
+.holdertwo .frame p{
+    color: var(--text);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 0 0 5px;
+}
+.holdertwo .frame .sign{
+    background: rgba(19, 163, 172, 0.1);
+    border-radius: 30px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cover{
+    background: var(--text);
+    border-radius: 50%;
+    padding: 5px;
+    color: var(--white);
+}
+/* third section ends here  */
+
+/* veggie section  */
+.veggies{
+    padding-top: 40px;
+    width: 90%;
+    height: 150px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+.veggies .veggie{
+    width: 26%;
+    background-image: url("./Images/vegetables\ 1\ 1.png");
+    background-size: cover;
+    height: 350px;
+    transform: rotate(5.4deg); 
+}
+/* veggie section  */
+
+/* blog section starts here  */
+
+
+.blogsection .blogone{
+    padding: 0 0 0 100px;
+    height: 100px;
+    width: 60%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--text);
+    padding-bottom: 150px;
+}
+.blogone h3{
+    font-weight: bolder;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.blogone h5{
+    font-weight: lighter;
+    font-size: 12px;
+}
+.blogtwo{
+    background: var(--white);
+    width: 80%;
+    padding: 50px;
+    /* height: 220px; */
+    display: flex;
+    margin: 0 auto;
+}
+.blogtwo .img{
+    width: 30%;
+}
+.img img{
+    object-fit: contain;
+    height: 220px;
+}
+.blogtwo .writeup{
+    width: 70%;
+    margin-left: 60px;
+    color: var(--text);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.writeup h4{
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.writeup p{
+    padding-bottom: 25px;
+}
+.btn-white{
+    background: rgba(37, 158, 167, 0.1);
+    color: var(--text);
+    padding: 10px 35px;
+    border: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-radius: 25px;
+}
+.btn-white .logo-white{
+    border: 2px solid var(--text);
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: 5px;
+}
+.blogthree{
+    background: var(--white);
+    width: 80%;
+    padding: 50px;
+    /* height: 220px; */
+    display: flex;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.blogthree .img{
+    width: 30%;
+}
+.blogthree .writeup{
+    width: 70%;
+    margin-left: 60px;
+    color: var(--text);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+/* blog section ends here  */
+
+/* veggietwo section  */
+.veggiestwo{
+    padding-top: 40px;
+    width: 90%;
+    height: 170px;
+    /* padding-left: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.veggiestwo .veggietwo{
+    width: 20%;
+    background-image: url("./Images/vegetables_1_2_copy_150x196.png");
+    background-size: cover;
+    height: 320px;
+    /* transform: matrix(-0.8, -0.59, -0.59, 0.8, 0, -0); */
+    position: absolute;
+}
+/* veggietwo section  */
+
+/* contact section starts here  */
+.contactsection{
+    background: url("./Images/small\ bck.png");
+    background-size: cover;
+    height: 500px;
+    padding-top: 150px;
+}
+.maincontact{
+    width: 80%;
+    background: var(--white);
+    margin: 0 auto;
+    /* position: absolute; */
+    display: flex;
+    padding: 70px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.contactone h4{
+    font-size: 30px;
+    font-weight: bolder;
+    color: var(--text);
+}
+.contactone h6{
+    color: var(--smalltext);
+    padding-top: 15px;
+    font-size: 12px;
+}
+.contacttwo{
+    /* border: 2px solid var(--text); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.contacttwo input{
+    padding: 10px 27px;
+    width: 250px;
+    outline: none;
+    border:2px solid var(--text);
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    color: var(--text);
+    background: var(--white);
+}
+/* contact section ends here  */
+
+/* footer section starts here  */
+.footersection{
+    padding-top: 30px;
+}
+.footcontainer{
+    display: flex;
+    padding-bottom: 50px;
+}
+.foot1{
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.foot1 .texts{
+    display: flex;
+    color: var(--text);
+}
+.foot1 .text2{
+    padding-left: 80px;
+}
+.foot1 button{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+button h6{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.btn-whitelong{
+    background: transparent;
+    color: var(--text);
+    padding: 12px 40px;
+    border: 2px solid var(--text);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-radius: 25px;
+}
+.btn-white .logo-white{
+    border: 2px solid var(--text);
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: 5px;
+}
+.texts span{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--header);
+    font-weight: bolder;
+}
+.texts ul li{
+    list-style: none;
+    color: var(--header);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 10px 0 0 0;
+}
+.foot2{
+    width: 50%;
+    text-align: right;
+    padding-right: 120px;
+    padding-top: 100px;
+    color: var(--text);
+}
+.foot2 h4{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--header);
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+.foot2 p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: var(--white);
+    box-shadow: 0px 4px 28px rgba(17, 87, 192, 0.05);
+    backdrop-filter: blur(20px);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--text);
+}
+/* footer section ends here  */
