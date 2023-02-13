@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: var(--body);
 }
@@ -226,6 +229,11 @@ header{
     align-items: center;
     justify-content: space-evenly;
 }
+.frame .sign:hover{
+    background: var(--smalltext);
+    transition: all 1s ease;
+    cursor: pointer;
+}
 .cover{
     background: var(--text);
     border-radius: 50%;
@@ -236,7 +244,7 @@ header{
 
 /* veggie section  */
 .veggies{
-    padding-top: 40px;
+    padding-top: 100px;
     width: 90%;
     height: 150px;
     padding-left: 100px;
@@ -317,6 +325,12 @@ header{
     padding: 3px;
     margin-left: 5px;
 }
+.btn-white:hover{
+    background: var(--smalltext);
+    color: var(--white);
+    transition: all 1.2s ease;
+    font-weight: bolder;
+}
 .blogthree{
     background: var(--white);
     width: 80%;
@@ -377,17 +391,17 @@ header{
     margin-bottom: 50px;
 }
 .contactone h4{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bolder;
     color: var(--text);
 }
 .contactone h6{
     color: var(--smalltext);
     padding-top: 15px;
-    font-size: 12px;
+    font-size: 14px;
 }
 .contacttwo{
-    border: 2px solid var(--text);
+    /* border: 2px solid var(--text); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -395,7 +409,7 @@ header{
     padding: 5px;
 }
 .contacttwo input{
-    padding: 10px 27px;
+    padding: 11px 27px;
     width: 250px;
     outline: none;
     border:2px solid var(--text);
@@ -406,6 +420,7 @@ header{
 }
 .contacttwo button{
     border-left: transparent;
+    margin-left: -45px;
 }
 /* contact section ends here  */
 
@@ -451,6 +466,12 @@ button h6{
     border-radius: 50%;
     padding: 3px;
     /* margin-left: 5px; */
+}
+.btn-whitelong:hover{
+    background: var(--smalltext);
+    color: var(--white);
+    transition: all 1.2s ease;
+    font-weight: bolder;
 }
 .texts span{
     font-family: 'Plus Jakarta Sans', sans-serif;
