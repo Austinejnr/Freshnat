@@ -387,11 +387,12 @@ header{
     font-size: 12px;
 }
 .contacttwo{
-    /* border: 2px solid var(--text); */
+    border: 2px solid var(--text);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
+    padding: 5px;
 }
 .contacttwo input{
     padding: 10px 27px;
@@ -402,6 +403,9 @@ header{
     transition: all 0.5s ease;
     color: var(--text);
     background: var(--white);
+}
+.contacttwo button{
+    border-left: transparent;
 }
 /* contact section ends here  */
 
@@ -442,11 +446,11 @@ button h6{
     font-family: 'Plus Jakarta Sans', sans-serif;
     border-radius: 25px;
 }
-.btn-white .logo-white{
+.btn-whitelong .logo-white{
     border: 2px solid var(--text);
     border-radius: 50%;
     padding: 3px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
 }
 .texts span{
     font-family: 'Plus Jakarta Sans', sans-serif;
